@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Doom Live Wallpaper</string>
+    <string name="description">Watch the Doomguy battle the forces of hell on your wallpaper!</string>
+    <string name="god_mode">God Mode</string>
+    <string name="god_mode_summary">Enable or disable god mode to stop doomguy from dying</string>
+    <string name="touch_screen">Powerups</string>
+    <string name="touch_screen_summary">Enable or disable touch screen spawning powerups</string>
+    <string name="anim_speed">Animation Speed</string>
+    <string name="anim_speed_summary">Change how fast the wallpaper is animated</string>
+    <string name="background">Select Background</string>
+    <string name="background_summary">Change which background is used</string>
+    <string name="random_waves">Randomize Monsters</string>
+    <string name="random_waves_summary">Enable or disable random monsters instead of fixed waves</string>
+</resources>

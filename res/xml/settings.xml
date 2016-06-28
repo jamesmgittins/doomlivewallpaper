@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:myapp="http://schemas.android.com/apk/res/com.jamesmgittins.livewallpaper.doom"
+	android:title="@string/app_name">
+
+
+
+	<CheckBoxPreference android:summaryOff="@string/god_mode_summary"
+		android:key="godmode" android:summaryOn="@string/god_mode_summary"
+		android:title="@string/god_mode" android:summary="@string/god_mode_summary">
+
+	</CheckBoxPreference>
+	<CheckBoxPreference android:summaryOff="@string/touch_screen_summary"
+		android:summaryOn="@string/touch_screen_summary" android:key="touchscreen"
+		android:title="@string/touch_screen" android:summary="@string/touch_screen_summary"></CheckBoxPreference>
+
+	<ListPreference android:entries="@array/speed_option_text"
+		android:entryValues="@array/speed_option_values" android:key="animationspeed"
+		android:title="@string/anim_speed" android:summary="@string/anim_speed_summary"
+		android:defaultValue="1"></ListPreference>
+		
+		<ListPreference android:entries="@array/background_option_text"
+		android:entryValues="@array/background_option_values" android:key="background"
+		android:title="@string/background" android:summary="@string/background_summary"
+		android:defaultValue="0"></ListPreference>
+		
+		<CheckBoxPreference android:summaryOff="@string/random_waves_summary"
+		android:summaryOn="@string/random_waves_summary" android:key="randomWaves"
+		android:title="@string/random_waves" android:summary="@string/random_waves_summary"></CheckBoxPreference>
+		
+		<com.jamesmgittins.livewallpaper.doom.SeekBarPreference android:key="maxmonsters"
+        android:title="Max Monsters"
+        android:summary="Maximum monsters in each wave (when random monsters enabled)"
+        android:dialogMessage="maximum monsters"
+        android:defaultValue="5"
+        android:text=" monsters"
+        android:max="24"/>
+        		
+</PreferenceScreen>

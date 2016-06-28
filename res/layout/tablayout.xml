@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:myapp="http://schemas.android.com/apk/res/com.jamesmgittins.livewallpaper.doom"
+	android:id="@android:id/tabhost" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+		<com.admob.android.ads.AdView android:id="@+id/ad"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			myapp:backgroundColor="#000000" myapp:primaryTextColor="#FFFFFF"
+			myapp:secondaryTextColor="#CCCCCC" />
+
+		<TabWidget android:id="@android:id/tabs"
+			android:layout_width="fill_parent" android:layout_height="1dp"
+			android:tabStripEnabled="false" android:visibility="invisible" />
+
+		<FrameLayout android:id="@android:id/tabcontent"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:padding="1dp" />
+	</LinearLayout>
+</TabHost>

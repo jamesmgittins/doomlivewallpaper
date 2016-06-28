@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- The attributes in this XML file provide configuration information -->
+
+<wallpaper 	xmlns:android="http://schemas.android.com/apk/res/android"
+			android:thumbnail="@drawable/icon" 
+    		android:description="@string/description"
+    		android:settingsActivity="com.jamesmgittins.livewallpaper.doom.SettingsTabActivity"/>
